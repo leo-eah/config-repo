@@ -1,5 +1,5 @@
 
-env: env
+env: dev
 spring:
   application:
     name: order
