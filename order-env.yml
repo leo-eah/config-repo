@@ -8,8 +8,9 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1/springcloud?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 149.28.86.56
+    port: 5672
+    username: guest
+    password: guest
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
